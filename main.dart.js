@@ -77499,14 +77499,14 @@ H(a){var s,r,q,p=null,o=A.ayR(a),n=t.p,m=A.a([new A.uO(o,p)],n),l=t.w
 if(!(A.b0(a,p,l).w.a.a>=1100))s=A.b0(a,p,l).w.a.a<1100&&A.b0(a,p,l).w.a.a>=650
 else s=!0
 if(s)m.push(A.aHu(o))
-s=A.b0(a,p,l).w.a.a>=1100?160:80
-m.push(A.re(0,A.dA(A.a([A.cK("UsmanTariq  Janjua",p,p,p,A.c1(p,p,B.i,p,p,p,p,p,"ArtySignature",p,p,A.b0(a,p,l).w.a.a>=1100?o*0.3:o*0.13,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],n),B.K,B.a5,B.O),p,p,0,0,s,p))
-s=A.b0(a,p,l).w.a.a>=1100?570:190
-r=A.b0(a,p,l).w.a.a>=1100?o*0.027:o*0.013
+s=A.b0(a,p,l).w.a.a>=1100?160:40
+m.push(A.re(0,A.dA(A.a([A.cK("UsmanTariq  Janjua",p,p,p,A.c1(p,p,B.i,p,p,p,p,p,"ArtySignature",p,p,A.b0(a,p,l).w.a.a>=1100?o*0.3:o*0.2,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],n),B.K,B.a5,B.O),p,p,0,0,s,p))
+s=A.b0(a,p,l).w.a.a>=1100?570:160
+r=A.b0(a,p,l).w.a.a>=1100?o*0.027:o*0.018
 q=A.asT().$0().d
 m.push(A.re(0,A.dA(A.a([A.cK("ENGINEER   - PROGRAMMER -   TECHGEEK",p,p,p,A.c1(p,p,B.i,p,p,p,p,p,q,p,p,r,p,p,B.bS,p,p,!0,p,A.b0(a,p,l).w.a.a>=1100?10:3,p,p,p,p,p,p),p,p)],n),B.K,B.a5,B.O),p,p,0,0,s,p))
-s=A.b0(a,p,l).w.a.a>=1100?670:220
-r=A.b0(a,p,l).w.a.a>=1100?o*0.04:o*0.017
+s=A.b0(a,p,l).w.a.a>=1100?670:190
+r=A.b0(a,p,l).w.a.a>=1100?o*0.04:o*0.03
 q=A.asT().$0().d
 m.push(A.re(0,A.dA(A.a([A.cK("\u2335",p,p,p,A.c1(p,p,B.i,p,p,p,p,p,q,p,p,r,p,p,B.bS,p,p,!0,p,A.b0(a,p,l).w.a.a>=1100?10:3,p,p,p,p,p,p),p,p)],n),B.K,B.a5,B.O),p,p,0,0,s,p))
 m=A.oC(B.co,m,B.ae,B.cX)
@@ -77553,21 +77553,22 @@ l(){var s=this.d
 s===$&&A.b()
 s.l()
 this.aO()},
-H(a){var s,r,q,p,o=null,n=A.b0(a,o,t.w).w,m=this.a
-if(n.a.a>=1100){n=m.c
-s=n*1.7
+H(a){var s,r,q,p,o=A.b0(a,null,t.w).w,n=this.a
+if(o.a.a>=1100){o=n.c
+s=o*1.7
 r=s
-s=n
-n=r}else{n=m.c
-s=n*0.8
+s=o
+o=r}else{o=n.c
+s=o*0.565
 r=s
-s=n
-n=r}q=this.d
+s=o
+o=r}q=this.d
 q===$&&A.b()
 p=q.a
-if(p.at){m=p.Q
-m=new A.H4(B.yo,A.c9(new A.zV(q,o),m.b,m.a),o)}else{m.toString
-m=A.c9(B.zB,s*0.1,o)}return A.c9(m,n,17976931348623157e292)}}
+if(p.at){n=p.Q
+n=new A.H4(B.yo,A.c9(new A.zV(q,null),n.b,n.a),null)}else{n.toString
+n=s*0.1
+n=A.c9(B.zB,n,n)}return A.c9(n,o,17976931348623157e292)}}
 A.aaS.prototype={
 $1(a){var s,r=this.a
 r.aB(new A.aaR())
@@ -81035,7 +81036,7 @@ B.jZ=new A.pv(2,"paused")
 B.xW=new A.pv(3,"detached")
 B.ha=new A.uK(0,"polite")
 B.hb=new A.uK(1,"assertive")
-B.xX=new A.px("assets/background1.jpg",null,null)
+B.xX=new A.px("assets/myImg2.jpg",null,null)
 B.be=A.a(s([]),t.s)
 B.j=new A.zu(1,"downstream")
 B.jd=new A.fW(-1,-1,B.j,!1,-1,-1)
