@@ -79264,22 +79264,21 @@ A.k3.prototype={
 xj(a){return this.ae2(a)},
 ae2(a0){var s=0,r=A.M(t.H),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$xj=A.N(function(a1,a2){if(a1===1){p=a2
-s=q}while(true)switch(s){case 0:n.aB()
-f=$.o_
-e=(f==null?$.o_=$.WE():f).wt("[DEFAULT]")
-A.kp(e,$.vh(),!0)
-f=A.aCg(new A.k4(e))
-d=f.c
-if(d==null){d=f.e
+s=q}while(true)switch(s){case 0:c=$.o_
+b=(c==null?$.o_=$.WE():c).wt("[DEFAULT]")
+A.kp(b,$.vh(),!0)
+c=A.aCg(new A.k4(b))
+f=c.c
+if(f==null){f=c.e
 A.arg()
-d=f.c=A.anq(f.d,d)}m=A.aGF(f,A.aDu(d,"Me"))
+f=c.c=A.anq(c.d,f)}m=A.aGF(c,A.aDu(f,"Me"))
 q=3
 s=6
 return A.R(m.adD(a0).tW(0),$async$xj)
 case 6:l=a2
-f=l
-c=A.atS(f.b.PO(0),f.a)
-k=c==null?t.a.a(c):c
+c=l
+e=A.atS(c.b.PO(0),c.a)
+k=e==null?t.a.a(e):e
 if(k!=null){j=J.be(k,"myEducation")
 $.ap8=J.lj(j,new A.a0S(),t.J_).dh(0)
 i=J.be(k,"myservices")
@@ -79287,6 +79286,7 @@ $.apa=J.lj(i,new A.a0T(),t.eC).dh(0)
 h=J.be(k,"myProjects")
 $.ap9=J.lj(h,new A.a0U(),t.B8).dh(0)
 n.b=!0
+n.aB()
 A.lg("Data fetched from Firestore and lists populated.")}else A.lg("No data found in Firestore for the given document ID.")
 o.push(5)
 s=4
